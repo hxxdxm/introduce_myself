@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>퀴즈</title>
+  <link rel="stylesheet" href="./퀴즈.css">
+</head>
+<body>
+  <div class="wrapper">
+    <h1>제 소개 잘 보셨나요?</h1>
+
+    <form action="네이버" method="get">
+      <div class="quiz">
+        <h3>퀴즈 1번</h3>
+        <div class="question">제가 좋아하는 색깔은?</div>
+        <ul>
+          <li><label><input type="radio" name="q1" value="skyblue"> 1. 하늘색</label></li>
+          <li><label><input type="radio" name="q1" value="yellow"> 2. 노란색</label></li>
+          <li><label><input type="radio" name="q1" value="green"> 3. 초록색</label></li>
+          <li><label><input type="radio" name="q1" value="pink"> 4. 분홍색</label></li>
+          <li><label><input type="radio" name="q1" value="black"> 5. 검정색</label></li>
+        </ul>
+      </div>
+
+      <div class="quiz">
+        <h3>퀴즈 2번</h3>
+        <div class="question">저의 기술 스택이 아닌것은?</div>
+        <ul>
+          <li><label><input type="radio" name="q2" value="python"> 1. python</label></li>
+          <li><label><input type="radio" name="q2" value="html"> 2. HTML</label></li>
+          <li><label><input type="radio" name="q2" value="css"> 3. CSS</label></li>
+          <li><label><input type="radio" name="q2" value="csharp"> 4. C#</label></li>
+          <li><label><input type="radio" name="q2" value="opencv"> 5. openCV</label></li>
+        </ul>
+      </div>
+
+      <div class="quiz">
+        <h3>퀴즈 3번</h3>
+        <div class="question">제가 추천한 노래는 무슨 노래를 샘플링한걸까요~?</div>
+        <input type="text" name="song" placeholder="정답을 입력하세요">
+      </div>
+
+      <div class="btn-wrap">
+        <button type="submit">제출하기</button>
+        <button type="reset">다시쓰기</button>
+        <a href="./자기소개.html" class="btn-link">뒤로가기</a>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

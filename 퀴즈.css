@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 40px 20px;
+  background-color: #ffe9f3;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  max-width: 600px;
+  width: 100%;
+  background-color: #fffdf8;
+  border-radius: 24px;
+  padding: 32px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  background-color: #fff3a0;
+  text-align: center;
+  padding: 16px;
+  border-radius: 16px;
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.quiz {
+  background-color: #f5fffb;
+  border-radius: 16px;
+  padding: 16px 20px;
+  margin-top: 20px;
+}
+
+.question {
+  margin-bottom: 8px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+li {
+  padding: 4px 0;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  margin-top: 8px;
+}
+
+.btn-wrap {
+  text-align: center;
+  margin-top: 28px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+button,
+.btn-link {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+button[type="submit"] {
+  background-color: #ff9eb5;
+  color: white;
+}
+
+button[type="reset"] {
+  background-color: #eee;
+  color: #555;
+}
+
+.btn-link {
+  background-color: #a4ffff;
+  color: #333;
+}
